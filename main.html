@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gunting-Batu-Kertas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="head">
+        Gunting Batu Kertas
+    </header>
+    <main class="main">
+        <div class="score">
+            <div class="user">0</div>:
+            <div class="computer">0</div>
+        </div>
+        <div class="result">
+
+        </div>
+        <div class="fight">
+            <div class="user-choice">
+                <img class="fight-u active active1" src="rock.png" alt="" width="150">
+                <img data-choice="1" class="fight-u" src="rock.png" alt="" width="150">
+                <img data-choice="2" class="fight-u" src="paper.png" alt="" width="150">
+                <img data-choice="3" class="fight-u" src="scissor.png" alt="" width="150">
+            </div>
+            <div class="computer-choice">
+                <img class="fight-c active active1" src="rock.png" alt="" width="150">
+                <img data-choice="1" class="fight-c" src="rock.png" alt="" width="150">
+                <img data-choice="2" class="fight-c" src="paper.png" alt="" width="150">
+                <img data-choice="3" class="fight-c" src="scissor.png" alt="" width="150">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="choice-grid">
+                <div data-choice="1" class="choice-sec rock">
+                    <img src="rock.png" alt="" width="150">
+                </div>
+                <div data-choice="2" class="choice-sec paper">
+                    <img src="paper.png" alt="" width="150">
+                </div>
+                <div data-choice="3" class="choice-sec scissor">
+                    <img src="scissor.png" alt="" width="150">
+                </div>
+            </div>
+            <span>Tentukan Pilihanmu.</span>
+        </div>
+        <div class="restart">
+            COBA LAGI
+        </div>
+    </main>
+</body>
+</html>
